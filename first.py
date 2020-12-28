@@ -1,22 +1,15 @@
 import pygame
 from time import sleep
 from random import randint
-from constants import DARK_BLUE as arr_main_color
-from constants import YELLOW as arr_secondary_color
-from constants import READS_GREY as background_color
+from constants import (
+    DARK_BLUE as arr_main_color,
+    YELLOW as arr_secondary_color,
+    READS_GREY as background_color,
+    READS_GREY as linecolor,
+    READS_GREY as middle_area_color
+)
 from constants import GREEN
-from constants import READS_GREY as linecolor
-from constants import READS_GREY as middle_area_color
 from constants import WIDTH, HEIGHT
-
-from constants import DARK_BLUE as arr_main_color
-from constants import YELLOW as arr_secondary_color
-from constants import GREY as background_color
-
-from constants import DARK_BLUE, YELLOW, GREY
-arr_main_color = DARK_BLUE
-arr_secondary_color = YELLOW
-background_color = GREY
 
 const = side_panels_width = (WIDTH - HEIGHT) // 2
 middle_area_width = HEIGHT // 10  # middle square area
